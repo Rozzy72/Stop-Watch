@@ -1,0 +1,150 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ */
+    /* background-image: url(/multimedia/city-garden-childrens-playground-silhouette-260nw-579183019.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet; */
+/* .box{
+    width: 600px;
+   height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/photos/city-garden-childrens-playground-silhouette-260nw-579183019.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px;
+    
+}
+.btn1{
+    color: red;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.btn2{
+    color: rebeccapurple;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.btn3{
+    color: blue;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+} */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 16px; /* 1rem */
+    background-image: url(photos/images.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Stopwatch container */
+  .box {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 32px; /* 2rem */
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Time display */
+  #displayTime {
+    font-size: 48px; /* 3rem */
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 24px; /* 1.5rem */
+  }
+  
+  /* Button container */
+  .box div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px; /* 1rem */
+  }
+  
+  /* Button styles */
+  button {
+    padding: 12px 24px; /* 0.75rem 1.5rem */
+    font-size: 16px; /* 1rem */
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Specific button colors */
+  .btn1 {
+    background-color: #28a745;
+  }
+  
+  .btn1:hover {
+    background-color: #218838;
+  }
+  
+  .btn2 {
+    background-color: #dc3545;
+  }
+  
+  .btn2:hover {
+    background-color: #c82333;
+  }
+  
+  .btn3 {
+    background-color: #007bff;
+  }
+  
+  .btn3:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 480px) {
+    .box {
+      padding: 16px; /* 1rem */
+    }
+  
+    #displayTime {
+      font-size: 36px; /* 2.25rem */
+    }
+  
+    button {
+      padding: 10px 20px; /* 0.625rem 1.25rem */
+      font-size: 14px; /* 0.875rem */
+    }
+  }
+  
